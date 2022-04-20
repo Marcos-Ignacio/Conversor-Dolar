@@ -5,22 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
     <title>Conversor Ignacio</title>
   </head>
   <body>
     <div class="container">
       <h1 class="page-title">Conversor Ignacio</h1>
-      <p class="page-subtitle">Converta seu Dolar e Euro</p>
-      <div class="converter">
-        <label for="moeda">Insira o valor que tem em DOLAR</label><br />
-        <input type="number" id="valor" /><br />
-        <button type="submit" onclick="Converter()">Converter</button>
-        <h2 id="valorConvertidoDolar"></h2>
-        <label for="moeda1">Insira o valor que tem em Euro</label><br />
-        <input type="number" id="valor" /><br />
-        <button type="submit" onclick="Converter()">Converter</button>
-        <h2 id="valorConvertidoEuro"></h2>
-      </div>
+      <p class="page-subtitle">Converta seu Dolar</p>
+      <label for="moeda">Insira o valor em DOLAR</label><br />
+      <input type="number" id="valorDolar" /><br />
+      <button type="submit" onclick="Converter()">Converter</button>
+      <h2 id="valorConvertidoDolar"></h2>
     </div>
   </body>
 </html>
